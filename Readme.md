@@ -25,3 +25,8 @@ Berikut contoh hasil program "ApaBole" untuk angka 1 sampai 30 ( yang diharapkan
 
 1. Gunakan Looping untuk mencetak 1 - 100
 2. di dalam looping gunakan mod untuk kondisi habis dibagi 3 cetak "Apa" Habis dibagi 5 cetak "Bole dan Habis dibagi 3 dan 5 cetak "ApaBole"
+
+### Solusi tambahan
+
+1. tambahan input stream
+2. buat program menjadi module yang dapat di gunakan ulang
