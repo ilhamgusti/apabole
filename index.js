@@ -14,7 +14,7 @@ const apabole = number => {
 		}
 		arr[i] = i
 	}
-	return arr.join(', ')
+	return arr.slice(1).join(', ')
 }
 
-apabole(100)
+console.log(apabole(100))
