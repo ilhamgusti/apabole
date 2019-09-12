@@ -22,3 +22,5 @@ Berikut contoh hasil program "ApaBole" untuk angka 1 sampai 30 ( yang diharapkan
 ```
 
 ## Solusi
+
+1. Gunakan Looping untuk mencetak 1 - 100
