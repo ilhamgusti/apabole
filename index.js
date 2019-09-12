@@ -1,17 +1,18 @@
+const arr = new Array()
 const apabole = number => {
 	for (i = 1; i < number; i++) {
 		if (i % 3 == 0) {
 			if (i % 3 == 0 && i % 5 == 0) {
-				console.log('ApaBole')
+				arr[i] = 'ApaBole'
 				continue
 			}
-			console.log('Apa')
+			arr[i] = 'Apa'
 			continue
 		} else if (i % 5 == 0) {
-			console.log('Bole')
+			arr[i] = 'Bole'
 			continue
 		}
-		console.log(i)
+		arr[i] = i
 	}
 }
 
