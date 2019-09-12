@@ -1,6 +1,6 @@
 const arr = new Array()
 const apabole = number => {
-	for (i = 0; i <= number; i++) {
+	for (let i = 0; i <= number; i++) {
 		if (i % 3 == 0) {
 			if (i % 3 == 0 && i % 5 == 0) {
 				arr[i] = 'ApaBole'
@@ -17,4 +17,4 @@ const apabole = number => {
 	return arr.slice(1).join(', ')
 }
 
-console.log(apabole(100))
+module.exports = apabole
