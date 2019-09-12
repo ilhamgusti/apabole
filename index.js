@@ -3,6 +3,9 @@ const apabole = number => {
 		if (i % 3 == 0) {
 			console.log('Apa')
 			continue
+		} else if (i % 5 == 0) {
+			console.log('Bole')
+			continue
 		}
 		console.log(i)
 	}
